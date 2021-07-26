@@ -4,7 +4,7 @@ To check for the services:
 
 #See srvices running and failed:
 $systemctl list-units --type=service | grep service
-
+#7-25-21
 #To see all services even those not loaded during system boot:
 $systemctl list-units --type=service --all
 Active: active (running) means the service is setup to start on boot and is running.
